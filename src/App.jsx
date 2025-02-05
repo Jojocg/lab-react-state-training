@@ -1,5 +1,7 @@
 import "./App.css";
 import LikeButton from "./components/LikeButton";
+import Counter from "./components/Counter";
+import ClickablePicture from "./components/ClickablePicture";
 
 function App() {
   return (
@@ -7,6 +9,10 @@ function App() {
       <h1> LAB | React Training</h1>
       <LikeButton /><br />
       <LikeButton />
+      <br /><br />
+      <Counter />
+      <br /><br />
+      <ClickablePicture />
     </div>
   );
 }
