@@ -10,7 +10,7 @@ export default function ClickablePicture () {
 
     return (
         <>
-            <img onClick={() => toggleShowGlasses()} src={showGlasses ? imgGlasses : imgNoGlasses} alt="guy face" />
+            <img className="guy-image" onClick={() => toggleShowGlasses()} src={showGlasses ? imgGlasses : imgNoGlasses} alt="guy face" />
         </>
     );
 }

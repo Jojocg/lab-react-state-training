@@ -12,7 +12,7 @@ function App() {
       <LikeButton />
       <br /><br />
       <Counter />
-      <br /><br />
+      <br />
       <ClickablePicture />
       <br /><br />
       <Dice />
